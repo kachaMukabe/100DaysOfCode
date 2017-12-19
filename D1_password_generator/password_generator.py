@@ -11,7 +11,7 @@ def generate_password():
     while word_count < 12:
         word = random.choice(w_dict)
         if word not in password:
-            password = password + word
+            password = password+word
             word_count += 1
     password = password.replace('\n', ' ')
     return password

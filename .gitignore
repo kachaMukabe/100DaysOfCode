@@ -2,3 +2,4 @@ __pycache__/
 *.py[cod]
 *$py.class
 .idea/
+D2_tweet_blog_stories/credentials.py
